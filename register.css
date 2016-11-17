@@ -1,0 +1,68 @@
+body {
+	color:#eee;
+}
+#logo {
+	height:60px;
+}
+#login-banner {
+	padding-top:12px;
+	margin-bottom:5%;
+}
+input[type=text],input[type=password],input[type=email],select.dropdown{
+	background:transparent;
+	border:1px solid #ddd;
+	color:#fff;
+}
+#login-banner form {
+	padding-top:10px;
+}
+.btn-outline {
+	background-color: transparent !important;
+	color: inherit;
+	transition: all .5s;
+}
+.btn-primary {
+	background-color: #A7166A;
+	border-color: #98105E;
+}
+.btn-primary:hover{
+	background-color: #98105E;
+	border-color: #A7166A;
+}
+.btn-primary.btn-outline {
+	color: #98105E;
+}
+
+.btn-success.btn-outline {
+	color: #5cb85c;
+}
+
+.btn-info.btn-outline {
+	color: #5bc0de;
+}
+
+.btn-warning.btn-outline {
+	color: #f0ad4e;
+}
+
+.btn-danger.btn-outline {
+	color: #d9534f;
+}
+
+.btn-primary.btn-outline:hover,
+.btn-success.btn-outline:hover,
+.btn-info.btn-outline:hover,
+.btn-warning.btn-outline:hover,
+.btn-danger.btn-outline:hover {
+	color: #fff;
+}
+div.container-fluid {
+	background:#111 url('bg.jpeg');
+	background-size:cover;
+}
+#register-cta-wrap {
+	padding-bottom:20px;
+}
+#register-form-wrap {
+	padding-bottom:120px;
+}
