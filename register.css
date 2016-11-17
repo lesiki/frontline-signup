@@ -56,13 +56,16 @@ input[type=text],input[type=password],input[type=email],select.dropdown{
 .btn-danger.btn-outline:hover {
 	color: #fff;
 }
-div.container-fluid {
+div.container-fluid#above-the-fold {
 	background:#111 url('bg.jpeg');
 	background-size:cover;
 }
 #register-cta-wrap {
 	padding-bottom:20px;
 }
+label[for=acceptedTermsOfService] {
+	padding-top:5px;
+}
 #register-form-wrap {
-	padding-bottom:120px;
+	padding-bottom:80px;
 }
