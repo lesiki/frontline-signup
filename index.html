@@ -5,6 +5,7 @@
 		<link rel="stylesheet" href="tabs.css"/>
 		<script src="https://code.jquery.com/jquery-1.12.4.min.js" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="register.js"></script>
 	</head>
 	<body>
 		<div class="container-fluid" id="above-the-fold">
@@ -25,7 +26,7 @@
 				</div>
 			</div>
 			<div class="row" id="register-cta-wrap">
-				<div class="col-md-12">
+				<div class="col-md-10 col-md-push-1">
 					<h1>Send a better message</h1>
 					<p class="lead">
 						Sign up now to use Frontline's message-based workflow management and automation tools.
@@ -180,21 +181,30 @@
 				<div class="col-md-5 col-md-push-1">
 					<label>Choose your account type</label>
 					<div class="list-group">
-						<a href="#" class="list-group-item active">
-							<h4 class="list-group-item-heading">Free FrontlineCloud account</h4>
+						<div href="#" class="list-group-item active">
+							<h4 class="list-group-item-heading"><input type="radio" name="industry" checked value="alfred-form"/>Free FrontlineCloud account</h4>
 							<p class="list-group-item-text">Get started with a free FrontlineCloud account. No credit card required</p>
 							<p class="list-group-item-text">Free to $100, depending on use</p>
-						</a>
-						<a href="#" class="list-group-item">
-							<h4 class="list-group-item-heading">Frontline + Radio</h4>
+							<a class="learn-more" href="https://www.frontlinesms.com/product" target="_blank">
+								Learn More
+							</a>
+							</div>
+						<div href="#" class="list-group-item">
+							<h4 class="list-group-item-heading"><input type="radio" name="industry" value="radio"/>Frontline + Radio</h4>
 							<p class="list-group-item-text">Customised for Radio Stations, with audience-engagement Activities</p>
 							<p class="list-group-item-text">$100 per month</p>
-						</a>
-						<a href="#" class="list-group-item">
-							<h4 class="list-group-item-heading">Frontline + Co-working</h4>
+							<a class="learn-more" href="https://www.frontlinesms.com/radio" target="_blank">
+								Learn More
+							</a>
+						</div>
+						<div href="#" class="list-group-item">
+							<h4 class="list-group-item-heading"><input type="radio" name="industry" value="coworking"/>Frontline + Co-working</h4>
 							<p class="list-group-item-text">Built for management of Co-working Spaces</p>
 							<p class="list-group-item-text">$100 per month</p>
-						</a>
+							<a class="learn-more" href="https://www.frontlinesms.com/coworking" target="_blank">
+								Learn More
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>

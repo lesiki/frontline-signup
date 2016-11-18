@@ -40,3 +40,8 @@
   border-radius: 0 4px 4px 0;
   margin-right: 0;
 }
+#above-the-fold div.list-group a.list-group-item {
+	background:transparent !important;
+	background-color:transparent;
+	color:#fff;
+}

@@ -69,3 +69,32 @@ label[for=acceptedTermsOfService] {
 #register-form-wrap {
 	padding-bottom:80px;
 }
+#above-the-fold div.list-group div.list-group-item {
+	background:transparent;
+	background-color:transparent;
+	color:#fff;
+}
+#above-the-fold div.list-group div.list-group-item a.learn-more {
+	font-size:1.2em;
+	color:inherit;
+	text-decoration:underline;
+}
+#above-the-fold div.list-group div.list-group-item.active {
+	background-color: #A7166A !important;
+	background: #A7166A;
+	color: #fff;
+	border-color: #A7166A;
+}
+#above-the-fold div.list-group h4 {
+	color:inherit;
+}
+#above-the-fold div.list-group h4 input {
+	display:inline-block;
+	margin-right:5px;
+	vertical-align:top;
+	padding-top:0px;
+	margin-top:0px;
+}
+#above-the-fold div.list-group p.list-group-item-text {
+	color:#ddd;
+}
